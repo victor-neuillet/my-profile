@@ -1,0 +1,112 @@
+/* Colors and fonts */
+
+body {
+	/*background-color: #F0F7FB;*/
+	background-image: url(mountains2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #000000;
+	font-family: Avenir;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+	font-family: Avenir;
+	font-weight: 500;
+	color: #002951;
+}
+
+h1 {
+	font-size: 33px;
+	letter-spacing: 8px;
+}
+
+h2 {
+	font-size : 22px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #0180FF;
+	font-family: Avenir;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #002951;
+}
+
+.container {
+	width: 900px;
+	margin: 30px auto;
+}
+
+@media (max-width: 1020px) {
+	.container {
+		width: 800px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+	#profil {
+	max-width: 10%;
+	border-radius: 5px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	padding: 10px 20px 10px 20px;
+	margin: 10px 5px;
+}
+
+.card-inside {
+	width: 235px;
+	/*border: 1px solid #002951;*/
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	padding: 5px 15px 5px 15px;
+	margin: 10px 0px 10px 0px;
+	font-size: 15px;
+	text-align: center;
+	align-content: center;
+	border-image-width: 100%;
+	max-width: 80%;
+	max-height: 80%;
+}
+
+#profil {
+	max-width: 50%;
+	border-radius: 5px;
+}
+
+
+.inline li {
+	float: none;
+	list-style-type: none;
+	display: inline-block;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.img {
+	max-width: 40%;
+	max-height: 40%;
+}
+
+
